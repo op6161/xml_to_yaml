@@ -1,6 +1,6 @@
 # Gemini프롬프트에 이모지 사용해서 귀엽게 대답하라고 해놨더니 터미널 출력도 귀엽게 해 줌
 
-from lib.formmating_xml_to_yaml import convert_xml_to_yaml
+from src.xml_to_yaml.formmating_xml_to_yaml import convert_xml_to_yaml
 import os
 
 """
