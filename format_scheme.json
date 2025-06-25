@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "설정 파일 스키마",
+  "description": "모든 설정 값은 문자열이어야 합니다.",
+  "type": "object",
+  "properties": {
+    "settings": {
+      "type": "object",
+      "description": "실제 설정 값들이 담기는 곳",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["settings"]
+}
